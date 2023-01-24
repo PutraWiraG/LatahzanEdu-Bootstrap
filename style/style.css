@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+  font-family: "Poppins";
+}
+
+.jumbotron {
+  background-image: url("../img/bg-img.jpg");
+  height: 570px;
+  color: white;
+  padding-top: 15rem;
+  background-size: cover;
+}
+
+.svg-jumbotron {
+  margin-top: -280px;
+  /* background-color: blue; */
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#about img {
+  width: 400px;
+}
+
+#programs {
+  background-color: #0099ff;
+}
+
+#programs h5 {
+  color: #0099ff;
+  font-weight: bold;
+}
+
+#programs p {
+  font-size: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#programs img {
+  width: 100px;
+}
+
+.custom-card {
+  width: 500px;
+  height: 270px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+#howtoRegister img {
+  width: 400px;
+}
+
+.kotak {
+  height: 3px;
+  background-color: #0099ff;
+  margin-top: 100px;
+}
+
+#unggulan img {
+  width: 100px;
+}
+
+#unggulan h5 {
+  font-weight: bold;
+  color: #0099ff;
+}
+
+#unggulan p {
+  font-size: 13px;
+}
+
+footer {
+  background-color: #0099ff;
+}
+
+footer img {
+  width: 200px;
+}
+
+@media screen and (max-width: 1000px) {
+  .jumbotron {
+    background-image: url("../img/bg-img.jpg");
+    height: 300px;
+    color: white;
+    padding-top: 10rem;
+  }
+  .svg-jumbotron {
+    margin-top: -90px;
+    /* background-color: blue; */
+  }
+  .svg-jum {
+    margin-top: 14px;
+  }
+  #about img {
+    width: 350px;
+    margin-left: 19px;
+  }
+  #howtoRegister img {
+    width: 350px;
+  }
+  .custom-card {
+    width: 390px;
+    height: 270px;
+    background-color: white;
+    border-radius: 30px;
+  }
+}
